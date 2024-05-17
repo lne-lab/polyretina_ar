@@ -1,0 +1,44 @@
+
+# tags for streetlab study
+
+Start familiarisation | t:10 v:-10
+End familiarisation
+
+Start black | t:3 v:0
+End black
+
+Start 1stExposure | t:10 v:-10
+End 1stExposure  | t:3 v:0
+
+Start training1 | t:10 v:-10
+End training1  | t:3 v:0
+
+Start training2 | t:10 v:-10
+End training2  | t:3 v:0
+
+Start training3 | t:10 v:-10
+End training3  | t:3 v:0
+
+Start training4 | t:10 v:-10
+End training4  | t:3 v:0
+
+Start training5 | t:10 v:-10
+End training5  | t:3 v:0
+
+Start training6 | t:10 v:-10
+End training6  | t:3 v:0
+
+Start training7 | t:10 v:-10
+End training7  | t:3 v:0
+
+Start training8 | t:10 v:-10
+End training8  | t:3 v:0
+
+Start training9 | t:10 v:-10
+End training9  | t:3 v:0
+
+Start training10 | t:10 v:-10
+End training10  | t:3 v:0
+
+Start test | t:10 v:-10
+End test  | t:3 v:0

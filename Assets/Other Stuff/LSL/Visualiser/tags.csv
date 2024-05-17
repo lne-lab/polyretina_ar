@@ -1,0 +1,70 @@
+
+# tags for the object recognition task
+
+start rest | t:5 v:30
+end rest
+
+start baseline | t:10 v:30
+end baseline
+
+start 15 | v:15
+
+start recogntion | t:5
+end recognition
+
+start coffee | t:5
+end coffee
+
+end 15
+
+start rest | t:2 v:30
+end rest
+
+start 25 | v:25
+
+start recogntion | t:5
+end recognition
+
+start coffee | t:5
+end coffee
+
+end 25
+
+start rest | t:2 v:30
+end rest
+
+start 35 | v:35
+
+start recogntion | t:5
+end recognition
+
+start coffee | t:5
+end coffee
+
+end 35
+
+start rest | t:2 v:30
+end rest
+
+start 45 | v:45
+
+start recogntion | t:5
+end recognition
+
+start coffee | t:5
+end coffee
+
+end 45
+
+start rest | t:2 v:30
+end rest
+
+start edge | v:-1
+
+start recogntion | t:5
+end recognition
+
+start coffee | t:5
+end coffee
+
+end edge
