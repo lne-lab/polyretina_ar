@@ -67,11 +67,11 @@ You can view the original files by clicking the "Select" button at the bottom of
 
 ## Using your own External Processors/Implants
 
-External Processors/Implants are explained [here](https://github.com/lne-lab/polyretina_vr/tree/master/Assets/Polyretina/SPV), under **Renderers**.
+External Processors/Implants are explained [here](https://github.com/lne-lab/polyretina_ar/tree/master/Assets/Polyretina/SPV), under **Renderers**.
 
 1. Extended either the ExternalProcessor.cs or Implant.cs base classes, implenting your own image processing logic.
    - Overridable methods include: Start, Update, GetDimensions and OnRenderImage.
-   - Add a **CreateAssetMenu** attribute to your class (See [EpiretinalImplant.cs](https://github.com/lne-lab/polyretina_vr/blob/master/Assets/Polyretina/SPV/Scripts/Epiretinal/EpiretinalImplant.cs) as an example).
+   - Add a **CreateAssetMenu** attribute to your class (See [EpiretinalImplant.cs](https://github.com/lne-lab/polyretina_ar/blob/master/Assets/Polyretina/SPV/Scripts/Epiretinal/EpiretinalImplant.cs) as an example).
 2. Right click the Project tab -> Create and then follow the menu set in your CreateAssetMenu attribute to create the asset.
 4. Add the Prosthesis component to the Scene's camera (if not already done).
 5. Assign the asset as either the External Processor or Implant of the Prosthesis component.
