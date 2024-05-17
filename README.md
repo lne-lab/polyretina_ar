@@ -75,9 +75,3 @@ External Processors/Implants are explained [here](https://github.com/lne-lab/pol
 2. Right click the Project tab -> Create and then follow the menu set in your CreateAssetMenu attribute to create the asset.
 4. Add the Prosthesis component to the Scene's camera (if not already done).
 5. Assign the asset as either the External Processor or Implant of the Prosthesis component.
-
-## Images
-
-![Kitchen](https://github.com/lne-lab/polyretina_vr/blob/master/Images/kitchen.png)
-![Street](https://github.com/lne-lab/polyretina_vr/blob/master/Images/street.png)
-
