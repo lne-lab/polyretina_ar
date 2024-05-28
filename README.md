@@ -1,10 +1,10 @@
 ﻿# polyretina_ar
 
-This project simulates the artificial vision provided by a POLYRETINA epi-retinal prosthesis using Unity, C# and HLSL/Cg. Simulations can be viewed in real-time on either a computer screen or in virtual reality (using either a FOVE or VIVE Pro Eye head-mounted display).
+This project simulates the artificial vision provided by a POLYRETINA epi-retinal prosthesis using Unity, C# and HLSL/Cg. Simulations can be viewed in real-time in augmented reality (using the VIVE Pro Eye head-mounted display).
 
 ## Setup
 
-1. Download Unity (Polyretina VR has only been tested on version 2019.2.16f1).
+1. Download Unity (Polyretina AR has only been tested on version 2019.2.16f1).
 2. Download Polyretina AR, either by:
    - Downloading the zipped files from Github,
    - Forking the repository, or
@@ -12,12 +12,6 @@ This project simulates the artificial vision provided by a POLYRETINA epi-retina
    
    Downloading the zipped files or forking the repository will give you the whole Unity project which can then be opened using Unity. Downloading the latest release will give you a Unity Package file which can be imported into an existing Unity project.
 3. After opening/importing the project, there will be potentially be some warning/error messages. You can ignore them by clicking clear in the console window. They will not appear again.
-
-### Viewing the simulation on a computer screen
-
-1. In the Game tab, create a new resolution that matches the output of the simulation (most likely 2036 x 2260).
-2. Open one of the demo sceenes (Assets/Polyretina/SPV/Demos/), such as Words.
-3. Run the simulation.
 
 ### Viewing the simulation in the Vive Pro Eye
 
@@ -28,28 +22,17 @@ This project simulates the artificial vision provided by a POLYRETINA epi-retina
 2. Click on the Polyretina dropdown menu -> Settings.
    - Check the Vive Pro Eye option under Eye Tracking SDKs
    - Check the VRInput Support option
-3. Open one of the demo scenes (Assets/Polyretina/SPV/Demos/), such as **Objects*.
-4. Make sure the **SRanipal Eye Framework** GameObject is enabled.
-5. Make sure **Virtual Reality Supported** is enabled in Unity's XR Settings.
-6. Navigate to Polyretina -> Studies -> Streetlab and run the Streetlab scene.
-7. Select the **Remote** resolution from the Game tab for more accurate viewing in the Unity Editor.
-8. To control the AR Streetlab Scene, use the control software in Other Stuff -> LSL -> Visualiser -> Streetlab_ControlCenter. Create a build and from another computer, use via Wifi to make notes, control and change the simulation during the study.
-
-**3D models cannot be distributed with this project, so your own will need to be added. High quality free 3D models can be found on websites such as TurboSquid.com or the Unity Asset Store. Once imported into the Unity project, add them to the "Objects" list in the "Object Spawner" GameObject*
+3. Make sure the **SRanipal Eye Framework** GameObject is enabled.
+4. Make sure **Virtual Reality Supported** is enabled in Unity's XR Settings.
+5. Navigate to Polyretina -> Studies -> Streetlab and run the Streetlab scene.
+6. Select the **Remote** resolution from the Game tab for more accurate viewing in the Unity Editor.
+7. To control the AR Streetlab Scene, use the control software in Other Stuff -> LSL -> Visualiser -> Streetlab_ControlCenter. Create a build and, use another computer via Wifi to make notes, control and change the simulation during the study.
 
 ### Changing Prosthetic Vision parameters
 
 1. Select the **Prosthetic Vision** GameObject in the Hierarchy tab.
 2. Scroll down the Prosthesis script in the Inspector tab.
 3. Adjust the settings as you see fit (changes made while the simulation is running will not be saved).
-
-## Adding prosthetic vision to a Unity scene
-
-To add prosthetic vision to another Unity scene, you only need to add the Prosthesis component to the Scene's camera and select the desired external processor and implant.  
-  
-The external processor and implant can be configured directly from the component, but know that these changes will also be reflected in the original files.  
-  
-You can view the original files by clicking the "Select" button at the bottom of either the external processor or the implant configuration windows.
 
 ## Using your own prosthesis design
 
